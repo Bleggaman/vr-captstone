@@ -22,8 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: nature_bush
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF
-  m_LightmapFlags: 6
+  m_ShaderKeywords: _EMISSION _ENVIRONMENTREFLECTIONS_OFF _SPECULAR_SETUP
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3050
@@ -126,12 +126,12 @@ Material:
     - _TranslucencyViewDependency: 0.073
     - _UVSec: 0
     - _WindQuality: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.69449496, g: 0.81617653, b: 0.63613755, a: 1}
     - _Color: {r: 0.69449496, g: 0.8161765, b: 0.63613755, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0.09019608, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
     - _TranslucencyColor: {r: 0.61810195, g: 0.8897059, b: 0.431769, a: 1}
