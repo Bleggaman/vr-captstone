@@ -669,6 +669,7 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="BlegText.cs" t="Include" />
           <e p="ClickForce.cs" t="Include" />
           <e p="RotateOnView.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />

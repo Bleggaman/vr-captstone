@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70c88a58-dd89-4493-9eba-3c04192d570c" name="Default Changelist" comment="" />
+    <list default="true" id="70c88a58-dd89-4493-9eba-3c04192d570c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hendeb96-vr-project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hendeb96-vr-project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hendeb96-vr-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hendeb96-vr-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenePrefabs/hw2/FlatStructures/3x3Ceiling.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenePrefabs/hw2/FlatStructures/3x3Ceiling.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScenePrefabs/hw2/PipesRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScenePrefabs/hw2/PipesRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_door_closed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_door_closed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_door_open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sci-Fi Styled Modular Pack/Animations/glass_door_open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/hw2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/hw2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,19 +18,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RotateOnView.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
-                <marker date="1570604760504" expanded="true" signature="6:78" ph="..." />
-                <marker date="1570604760504" expanded="true" signature="122:731" ph="{...}" />
-                <marker date="1570604760504" expanded="true" signature="311:574" ph="{...}" />
-                <marker date="1570604760504" expanded="true" signature="357:440" ph="{...}" />
-                <marker date="1570604760504" expanded="true" signature="482:568" ph="{...}" />
-                <marker date="1570604760504" expanded="true" signature="603:729" ph="{...}" />
+                <marker date="1570657572811" expanded="false" signature="6:78" ph="..." />
+                <marker date="1570657572811" expanded="true" signature="122:2802" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="480:1202" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="526:784" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="664:774" ph="/* this.rotation = Rotate(this.openRotation, this.closedRotation); ... */" />
+                <marker date="1570657572811" expanded="true" signature="851:1113" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="993:1103" ph="/* this.rotation = Rotate(this.closedRotation, this.openRotation); ... */" />
+                <marker date="1570657572811" expanded="true" signature="1231:1315" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="1349:1413" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="1489:2800" ph="{...}" />
+                <marker date="1570657572811" expanded="true" signature="1954:2584" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -64,15 +78,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,11 +143,12 @@
       <updated>1570142397996</updated>
       <workItem from="1570142400416" duration="3161000" />
       <workItem from="1570576101976" duration="1654000" />
+      <workItem from="1571178850215" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4815000" />
+    <option name="totallyTimeSpent" value="5148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -148,7 +163,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -504,17 +519,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NewSurfaceShader.shader">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RotateOnView.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <marker date="1570604760504" expanded="true" signature="6:78" ph="..." />
-            <marker date="1570604760504" expanded="true" signature="122:731" ph="{...}" />
-            <marker date="1570604760504" expanded="true" signature="311:574" ph="{...}" />
-            <marker date="1570604760504" expanded="true" signature="357:440" ph="{...}" />
-            <marker date="1570604760504" expanded="true" signature="482:568" ph="{...}" />
-            <marker date="1570604760504" expanded="true" signature="603:729" ph="{...}" />
+            <marker date="1570657572811" expanded="false" signature="6:78" ph="..." />
+            <marker date="1570657572811" expanded="true" signature="122:2802" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="480:1202" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="526:784" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="664:774" ph="/* this.rotation = Rotate(this.openRotation, this.closedRotation); ... */" />
+            <marker date="1570657572811" expanded="true" signature="851:1113" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="993:1103" ph="/* this.rotation = Rotate(this.closedRotation, this.openRotation); ... */" />
+            <marker date="1570657572811" expanded="true" signature="1231:1315" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="1349:1413" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="1489:2800" ph="{...}" />
+            <marker date="1570657572811" expanded="true" signature="1954:2584" ph="{...}" />
           </folding>
         </state>
       </provider>
