@@ -5,6 +5,13 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Assignment 6" t="Include">
+          <e p="PointerSelector.cs" t="Include" />
+          <e p="Selectable.cs" t="Include" />
+          <e p="SelectableTile.cs" t="Include" />
+          <e p="SelectableTyrantPlayer.cs" t="Include" />
+        </e>
+        <e p="DebugUI.cs" t="Include" />
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
             <e p="Scenes" t="Include">
@@ -669,10 +676,12 @@
           <e p="README.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AmbientAudioLoop.cs" t="Include" />
           <e p="BlegText.cs" t="Include" />
           <e p="ClickForce.cs" t="Include" />
           <e p="RotateOnView.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="VRPointer.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
