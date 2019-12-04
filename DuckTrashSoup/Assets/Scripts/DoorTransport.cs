@@ -15,15 +15,11 @@ public class DoorTransport : OVRGrabbable {
         SceneManager.LoadScene(targetRoom);
     }
 
-    public void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Player")) return;
-
+    public void LightDoor() {
         this.door.material = lit;
     }
 
-    public void OnTriggerExit(Collider other) {
-        if (other.CompareTag("Player")) return;
-
+    public void UnlightDoor() {
         this.door.material = unlit;
     }
 }

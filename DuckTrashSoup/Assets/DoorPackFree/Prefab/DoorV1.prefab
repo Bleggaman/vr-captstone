@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 645865487516958397}
   m_Layer: 0
   m_Name: HandleGrabbable
-  m_TagString: Untagged
+  m_TagString: door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,8 +121,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.20156503, z: 0.3925295}
-  m_Center: {x: 0, y: -0.044660926, z: 0.30373526}
+  m_Size: {x: 0.35221767, y: 0.36302423, z: 0.3925295}
+  m_Center: {x: 0.023780346, y: -0.072972536, z: 0.30373526}
 --- !u!114 &645865487516958397
 MonoBehaviour:
   m_ObjectHideFlags: 0

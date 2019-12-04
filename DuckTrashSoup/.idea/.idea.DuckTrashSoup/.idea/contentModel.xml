@@ -665,6 +665,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DoorHand.cs" t="Include" />
           <e p="DoorTransport.cs" t="Include" />
           <e p="PaperWod.cs" t="Include" />
           <e p="StackOfPaper.cs" t="Include" />
