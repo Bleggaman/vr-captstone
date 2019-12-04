@@ -25,12 +25,12 @@ public class StackOfPaper : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
-    void Update() {
-        
-    }
 
-    private void OnCollisionEnter(Collision other) {
-        
+
+    public void PaperWodGotGrabbed(GameObject grabbedWod) {
+        paperWods.Remove(grabbedWod);
+        paperWods.Add(grabbedWod);
+
+        paperWods[0].transform.position = this.transform.position;
     }
 }
