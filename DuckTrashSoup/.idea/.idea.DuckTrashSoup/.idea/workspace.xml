@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edaa69d-945c-4214-b8e4-37606c66bcc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/PhysicsMaterials/New Physic Material.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PhysicsMaterials/New Physic Material.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckTrashSoup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckTrashSoup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_AssetStore/DoorPackFree/Prefab/DoorV1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_AssetStore/DoorPackFree/Prefab/DoorV1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PaperWad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PaperWad.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -636,16 +634,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <marker date="1575499679588" expanded="true" signature="6:92" ph="..." />
                 <marker date="1575499679588" expanded="true" signature="131:527" ph="{...}" />
                 <marker date="1575499679588" expanded="true" signature="288:432" ph="{...}" />
                 <marker date="1575499679588" expanded="true" signature="485:525" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <marker date="1575502667625" expanded="true" signature="6:92" ph="..." />
+                <marker date="1575502667625" expanded="true" signature="136:538" ph="{...}" />
+                <marker date="1575502667625" expanded="true" signature="324:468" ph="{...}" />
+                <marker date="1575502667625" expanded="true" signature="517:536" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -658,6 +671,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" root0="FORCE_HIGHLIGHTING" />
@@ -673,6 +687,7 @@
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs" />
       </list>
     </option>
   </component>
@@ -782,12 +797,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575418444123</updated>
-      <workItem from="1575418445486" duration="4741000" />
+      <workItem from="1575418445486" duration="5450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4741000" />
+    <option name="totallyTimeSpent" value="5450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1474,13 +1489,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
           <folding>
             <marker date="1575499679588" expanded="true" signature="6:92" ph="..." />
             <marker date="1575499679588" expanded="true" signature="131:527" ph="{...}" />
             <marker date="1575499679588" expanded="true" signature="288:432" ph="{...}" />
             <marker date="1575499679588" expanded="true" signature="485:525" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <marker date="1575502667625" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575502667625" expanded="true" signature="136:538" ph="{...}" />
+            <marker date="1575502667625" expanded="true" signature="324:468" ph="{...}" />
+            <marker date="1575502667625" expanded="true" signature="517:536" ph="{...}" />
           </folding>
         </state>
       </provider>
