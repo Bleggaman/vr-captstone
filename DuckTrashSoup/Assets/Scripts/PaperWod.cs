@@ -15,5 +15,9 @@ public class PaperWod : OVRGrabbable {
 
     private void OnCollisionEnter(Collision other) {
         collisionCrumple.Play();
+
+        if (other.gameObject.tag == "Player") {
+            Physics.IgnoreCollision(this.GetComponent<Collider>(), other.collider);
+        }
     }
 }
