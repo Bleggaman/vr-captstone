@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edaa69d-945c-4214-b8e4-37606c66bcc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/PhysicsMaterials/New Physic Material.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PhysicsMaterials/New Physic Material.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PaperWad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PaperWad.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" afterDir="false" />
     </list>
@@ -563,6 +560,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
+              <folding>
+                <marker date="1575409682802" expanded="true" signature="82:289" ph="/* \file      Hand.cs ... */" />
+                <marker date="1575409682802" expanded="false" signature="297:436" ph="..." />
+                <marker date="1575409682802" expanded="true" signature="469:9093" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="552:9091" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="2070:2142" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="2172:3233" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="3264:3760" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="3770:3886" ph="/* Just checking the state of the index and thumb cap touch sensors, but with a little bit of ... */" />
+                <marker date="1575409682802" expanded="true" signature="3930:4148" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="4183:4919" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="4445:4909" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="4663:4895" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5013:5641" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5069:5631" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5273:5526" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5337:5508" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5686:6338" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5738:6328" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5830:6041" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="5906:6023" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="6114:6263" ph="/* Update function will update this flag appropriately. Do not set it to a potentially incorrect value here. ... */" />
+                <marker date="1575409682802" expanded="true" signature="6408:6602" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="6643:7947" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="6791:6970" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="7131:7199" ph="/* Flex ... */" />
+                <marker date="1575409682802" expanded="true" signature="8054:9085" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="8111:8163" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="8231:8644" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="8368:8630" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="8661:9075" ph="{...}" />
+                <marker date="1575409682802" expanded="true" signature="8798:9061" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1575503769925" expanded="true" signature="6:92" ph="..." />
+                <marker date="1575503769925" expanded="true" signature="131:523" ph="{...}" />
+                <marker date="1575503769925" expanded="true" signature="182:324" ph="{...}" />
+                <marker date="1575503769925" expanded="true" signature="377:521" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -580,14 +633,14 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="34" />
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
               <folding>
-                <marker date="1575498636913" expanded="true" signature="6:92" ph="..." />
-                <marker date="1575498636913" expanded="true" signature="136:946" ph="{...}" />
-                <marker date="1575498636913" expanded="true" signature="312:734" ph="{...}" />
-                <marker date="1575498636913" expanded="true" signature="425:728" ph="{...}" />
-                <marker date="1575498636913" expanded="true" signature="593:718" ph="{...}" />
-                <marker date="1575498636913" expanded="true" signature="796:944" ph="{...}" />
+                <marker date="1575504303883" expanded="true" signature="6:92" ph="..." />
+                <marker date="1575504303883" expanded="true" signature="136:1263" ph="{...}" />
+                <marker date="1575504303883" expanded="true" signature="312:950" ph="{...}" />
+                <marker date="1575504303883" expanded="true" signature="514:944" ph="{...}" />
+                <marker date="1575504303883" expanded="true" signature="755:863" ph="{...}" />
+                <marker date="1575504303883" expanded="true" signature="1012:1261" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -596,11 +649,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1174">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="-1602">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <marker date="1575409686047" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
-                <marker date="1575409686047" expanded="false" signature="979:1005" ph="..." />
+                <marker date="1575409686047" expanded="true" signature="979:1005" ph="..." />
                 <marker date="1575409686047" expanded="true" signature="1007:1095" ph="/// An object that can be grabbed and thrown by OVRGrabber. ... " />
                 <marker date="1575409686047" expanded="true" signature="1137:4797" ph="{...}" />
                 <marker date="1575409686047" expanded="true" signature="1608:1688" ph="/// If true, the object can currently be grabbed. ... " />
@@ -639,13 +692,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1575499679588" expanded="true" signature="6:92" ph="..." />
-                <marker date="1575499679588" expanded="true" signature="131:527" ph="{...}" />
-                <marker date="1575499679588" expanded="true" signature="288:432" ph="{...}" />
-                <marker date="1575499679588" expanded="true" signature="485:525" ph="{...}" />
+                <marker date="1575504438588" expanded="true" signature="6:92" ph="..." />
+                <marker date="1575504438588" expanded="true" signature="131:670" ph="{...}" />
+                <marker date="1575504438588" expanded="true" signature="288:432" ph="{...}" />
+                <marker date="1575504438588" expanded="true" signature="485:668" ph="{...}" />
+                <marker date="1575504438588" expanded="true" signature="567:662" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <marker date="1575503369753" expanded="true" signature="6:127" ph="..." />
+                <marker date="1575503369753" expanded="true" signature="171:558" ph="{...}" />
+                <marker date="1575503369753" expanded="true" signature="359:410" ph="{...}" />
+                <marker date="1575503369753" expanded="true" signature="440:481" ph="{...}" />
+                <marker date="1575503369753" expanded="true" signature="513:556" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -658,11 +728,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRBoundary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -671,6 +744,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorHand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" />
       </list>
@@ -782,12 +858,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575418444123</updated>
-      <workItem from="1575418445486" duration="4741000" />
+      <workItem from="1575418445486" duration="6946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4741000" />
+    <option name="totallyTimeSpent" value="6946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1333,14 +1409,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorTransport.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <marker date="1575488318043" expanded="true" signature="6:92" ph="..." />
-            <marker date="1575488318043" expanded="true" signature="135:364" ph="{...}" />
-            <marker date="1575488318043" expanded="true" signature="224:362" ph="{...}" />
+            <marker date="1575503369753" expanded="true" signature="6:127" ph="..." />
+            <marker date="1575503369753" expanded="true" signature="171:558" ph="{...}" />
+            <marker date="1575503369753" expanded="true" signature="359:410" ph="{...}" />
+            <marker date="1575503369753" expanded="true" signature="440:481" ph="{...}" />
+            <marker date="1575503369753" expanded="true" signature="513:556" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1416,28 +1494,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WasteBasket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1575488318043" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575488318043" expanded="true" signature="135:364" ph="{...}" />
+            <marker date="1575488318043" expanded="true" signature="224:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorHand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1575503769925" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575503769925" expanded="true" signature="131:523" ph="{...}" />
+            <marker date="1575503769925" expanded="true" signature="182:324" ph="{...}" />
+            <marker date="1575503769925" expanded="true" signature="377:521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <marker date="1575409682802" expanded="true" signature="82:289" ph="/* \file      Hand.cs ... */" />
+            <marker date="1575409682802" expanded="false" signature="297:436" ph="..." />
+            <marker date="1575409682802" expanded="true" signature="469:9093" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="552:9091" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="2070:2142" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="2172:3233" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="3264:3760" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="3770:3886" ph="/* Just checking the state of the index and thumb cap touch sensors, but with a little bit of ... */" />
+            <marker date="1575409682802" expanded="true" signature="3930:4148" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="4183:4919" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="4445:4909" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="4663:4895" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5013:5641" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5069:5631" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5273:5526" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5337:5508" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5686:6338" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5738:6328" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5830:6041" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="5906:6023" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="6114:6263" ph="/* Update function will update this flag appropriately. Do not set it to a potentially incorrect value here. ... */" />
+            <marker date="1575409682802" expanded="true" signature="6408:6602" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="6643:7947" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="6791:6970" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="7131:7199" ph="/* Flex ... */" />
+            <marker date="1575409682802" expanded="true" signature="8054:9085" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="8111:8163" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="8231:8644" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="8368:8630" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="8661:9075" ph="{...}" />
+            <marker date="1575409682802" expanded="true" signature="8798:9061" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/StackOfPaper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="34" />
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
           <folding>
-            <marker date="1575498636913" expanded="true" signature="6:92" ph="..." />
-            <marker date="1575498636913" expanded="true" signature="136:946" ph="{...}" />
-            <marker date="1575498636913" expanded="true" signature="312:734" ph="{...}" />
-            <marker date="1575498636913" expanded="true" signature="425:728" ph="{...}" />
-            <marker date="1575498636913" expanded="true" signature="593:718" ph="{...}" />
-            <marker date="1575498636913" expanded="true" signature="796:944" ph="{...}" />
+            <marker date="1575504303883" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575504303883" expanded="true" signature="136:1263" ph="{...}" />
+            <marker date="1575504303883" expanded="true" signature="312:950" ph="{...}" />
+            <marker date="1575504303883" expanded="true" signature="514:944" ph="{...}" />
+            <marker date="1575504303883" expanded="true" signature="755:863" ph="{...}" />
+            <marker date="1575504303883" expanded="true" signature="1012:1261" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1174">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="-1602">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <marker date="1575409686047" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
-            <marker date="1575409686047" expanded="false" signature="979:1005" ph="..." />
+            <marker date="1575409686047" expanded="true" signature="979:1005" ph="..." />
             <marker date="1575409686047" expanded="true" signature="1007:1095" ph="/// An object that can be grabbed and thrown by OVRGrabber. ... " />
             <marker date="1575409686047" expanded="true" signature="1137:4797" ph="{...}" />
             <marker date="1575409686047" expanded="true" signature="1608:1688" ph="/// If true, the object can currently be grabbed. ... " />
@@ -1474,13 +1616,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1575499679588" expanded="true" signature="6:92" ph="..." />
-            <marker date="1575499679588" expanded="true" signature="131:527" ph="{...}" />
-            <marker date="1575499679588" expanded="true" signature="288:432" ph="{...}" />
-            <marker date="1575499679588" expanded="true" signature="485:525" ph="{...}" />
+            <marker date="1575504438588" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575504438588" expanded="true" signature="131:670" ph="{...}" />
+            <marker date="1575504438588" expanded="true" signature="288:432" ph="{...}" />
+            <marker date="1575504438588" expanded="true" signature="485:668" ph="{...}" />
+            <marker date="1575504438588" expanded="true" signature="567:662" ph="{...}" />
           </folding>
         </state>
       </provider>
