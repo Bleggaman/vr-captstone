@@ -6,7 +6,13 @@ using UnityEngine;
 public class PaperWod : OVRGrabbable {
     public AudioSource crumpleSound;
     public AudioSource collisionCrumple;
+
     
+    
+    protected override void Start() {
+        base.Start();
+    }
+
     public override void GrabBegin(OVRGrabber hand, Collider grabPoint) {
         base.GrabBegin(hand, grabPoint);
         StackOfPaper.Instance.PaperWodGotGrabbed(this.gameObject);
@@ -19,5 +25,9 @@ public class PaperWod : OVRGrabbable {
         if (other.gameObject.tag == "Player") {
             Physics.IgnoreCollision(this.GetComponent<Collider>(), other.collider);
         }
+    }
+
+    public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity) {
+        base.GrabEnd(linearVelocity, angularVelocity);
     }
 }
