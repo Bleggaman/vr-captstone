@@ -7,7 +7,6 @@ public class PaperWod : OVRGrabbable {
     public AudioSource crumpleSound;
     public AudioSource collisionCrumple;
 
-    public Queue<>
     
     
     protected override void Start() {

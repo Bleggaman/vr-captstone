@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edaa69d-945c-4214-b8e4-37606c66bcc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DuckTrashSoup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DuckTrashSoup/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/TrashRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/TrashRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -638,16 +635,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding>
-                <marker date="1575597279987" expanded="true" signature="6:92" ph="..." />
-                <marker date="1575597279987" expanded="true" signature="131:908" ph="{...}" />
-                <marker date="1575597279987" expanded="true" signature="277:306" ph="{...}" />
-                <marker date="1575597279987" expanded="true" signature="380:524" ph="{...}" />
-                <marker date="1575597279987" expanded="true" signature="577:760" ph="{...}" />
-                <marker date="1575597279987" expanded="true" signature="659:754" ph="{...}" />
-                <marker date="1575597279987" expanded="true" signature="844:906" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="6:92" ph="..." />
+                <marker date="1575597928537" expanded="true" signature="131:889" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="258:287" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="361:505" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="558:741" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="640:735" ph="{...}" />
+                <marker date="1575597928537" expanded="true" signature="825:887" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -820,12 +817,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575418444123</updated>
-      <workItem from="1575418445486" duration="8241000" />
+      <workItem from="1575418445486" duration="8456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8241000" />
+    <option name="totallyTimeSpent" value="8456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1578,16 +1575,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
-            <marker date="1575597279987" expanded="true" signature="6:92" ph="..." />
-            <marker date="1575597279987" expanded="true" signature="131:908" ph="{...}" />
-            <marker date="1575597279987" expanded="true" signature="277:306" ph="{...}" />
-            <marker date="1575597279987" expanded="true" signature="380:524" ph="{...}" />
-            <marker date="1575597279987" expanded="true" signature="577:760" ph="{...}" />
-            <marker date="1575597279987" expanded="true" signature="659:754" ph="{...}" />
-            <marker date="1575597279987" expanded="true" signature="844:906" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="6:92" ph="..." />
+            <marker date="1575597928537" expanded="true" signature="131:889" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="258:287" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="361:505" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="558:741" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="640:735" ph="{...}" />
+            <marker date="1575597928537" expanded="true" signature="825:887" ph="{...}" />
           </folding>
         </state>
       </provider>
