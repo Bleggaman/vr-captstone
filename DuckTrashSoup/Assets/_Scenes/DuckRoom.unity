@@ -244,6 +244,36 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7393b1c1eae6ce041ad8882cc3805157, type: 2}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.379
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5533
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5533
+      objectReference: {fileID: 0}
+    - target: {fileID: -6052532829304488441, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5533
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e9c6736912bc8447bbb3519c4016bd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -467,8 +497,8 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 5.32
+      minMaxState: 1
+      scalar: 6.62
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1016,12 +1046,12 @@ ParticleSystem:
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0.07
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 0, y: 0.06, z: 0}
     m_Rotation: {x: -90, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
-    placementMode: 0
+    m_Scale: {x: 0.5, y: 0.5, z: 0.5}
+    placementMode: 2
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
     m_MeshSpawn:
@@ -1099,7 +1129,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.22480154
+      value: 0.18
       mode: 0
       spread: 0
       speed:
@@ -1218,7 +1248,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 5
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3915,7 +3945,7 @@ ParticleSystem:
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
+    plane0: {fileID: 1885459933}
     plane1: {fileID: 0}
     plane2: {fileID: 0}
     plane3: {fileID: 0}
@@ -4030,7 +4060,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -6161,6 +6191,12 @@ PrefabInstance:
 --- !u!4 &1885459932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4674124382959818, guid: 513ffd4a10c9298428542f3a6157c8cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885459931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1885459933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4501477643420194, guid: 513ffd4a10c9298428542f3a6157c8cd,
     type: 3}
   m_PrefabInstance: {fileID: 1885459931}
   m_PrefabAsset: {fileID: 0}
