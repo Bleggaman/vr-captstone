@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171393109}
   - component: {fileID: 171393108}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,6 +223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 001_Pedestal_high_poly (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7ffcc98d1ad026e41999ec326629e738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7ffcc98d1ad026e41999ec326629e738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -309,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380336451}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,6 +352,91 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: paper_stack
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7127456682987314660, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8805603217386951462, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -3536062576661232538, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493954280017951479, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -2401930072184423355, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -5394698687970521786, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -1429545747159536796, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -279420998140673531, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 925408749897989940, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8497610064129992562, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -6470881090110212949, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837508214022685693, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -1648684763986009589, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117135887217275161, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -6676177223831590376, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -2597990172849827049, guid: 87fa00806a4aba04e948b99928b7487b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 87fa00806a4aba04e948b99928b7487b,
         type: 3}
@@ -457,7 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 649497777}
   - component: {fileID: 649497776}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +640,7 @@ GameObject:
   - component: {fileID: 656563505}
   - component: {fileID: 656563504}
   - component: {fileID: 656563503}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +732,7 @@ GameObject:
   - component: {fileID: 865809244}
   - component: {fileID: 865809243}
   - component: {fileID: 865809242}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874264630}
   - component: {fileID: 874264631}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,6 +916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorToDuck
       objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -895,6 +990,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138219651692498168, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4732294853042221429, guid: 214b673e61a328f4b97a4c1f1bba63d3,
         type: 3}
@@ -977,7 +1087,7 @@ GameObject:
   - component: {fileID: 1130897729}
   - component: {fileID: 1130897728}
   - component: {fileID: 1130897727}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1274,7 +1384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1334158402}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BallOfLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1315,7 +1425,7 @@ GameObject:
   - component: {fileID: 1430337066}
   - component: {fileID: 1430337065}
   - component: {fileID: 1430337064}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,6 +1660,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorToSoup
       objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1620,6 +1735,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138219651692498168, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6424270456697187808, guid: 214b673e61a328f4b97a4c1f1bba63d3,
         type: 3}
       propertyPath: m_ApplyRootMotion
@@ -1653,6 +1783,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wastebasket
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 14a1e5c9b401d084a982cd15ebc4363c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 316156060015323940, guid: 14a1e5c9b401d084a982cd15ebc4363c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 14a1e5c9b401d084a982cd15ebc4363c,
         type: 3}
@@ -1743,7 +1883,7 @@ GameObject:
   - component: {fileID: 1793611347}
   - component: {fileID: 1793611346}
   - component: {fileID: 1793611345}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,6 +1996,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: crumpled_paper
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e8bf50037ea50b41ab237f3ab50ab4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8521604580274280069, guid: 7e8bf50037ea50b41ab237f3ab50ab4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7e8bf50037ea50b41ab237f3ab50ab4f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1940,7 +2090,7 @@ GameObject:
   - component: {fileID: 1982980878}
   - component: {fileID: 1982980877}
   - component: {fileID: 1982980876}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2124,6 +2274,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 001_Pedestal_high_poly
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7ffcc98d1ad026e41999ec326629e738,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7ffcc98d1ad026e41999ec326629e738,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2208,7 +2363,7 @@ GameObject:
   - component: {fileID: 2021642834}
   - component: {fileID: 2021642833}
   - component: {fileID: 2021642832}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Plane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,6 +2480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695763593446709741, guid: b0d3ecc4e1de641c7b75912fe1107838,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8695763593446709730, guid: b0d3ecc4e1de641c7b75912fe1107838,
         type: 3}
