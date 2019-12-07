@@ -7586,6 +7586,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 7.70044
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: a415a3d5848b944428dcc40d6858f844,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab26d5217934c8c40be0b62fb556f0c5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a415a3d5848b944428dcc40d6858f844, type: 3}
 --- !u!1 &688307335 stripped
@@ -7909,7 +7914,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -8291,8 +8296,8 @@ ParticleSystem:
     radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Rotation: {x: -90, y: 0, z: 0}
+    m_Scale: {x: 0.5, y: 0.5, z: 0.5}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
