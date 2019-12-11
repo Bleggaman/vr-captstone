@@ -5,22 +5,21 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="JMO Assets" t="Include">
-          <e p="Toony Colors" t="Include">
-            <e p="!ToonyColors Readme.txt" t="Include" />
-            <e p="Demo 2.0" t="Include">
-              <e p="TCF_Demo.cs" t="Include" />
-            </e>
-            <e p="Editor" t="Include">
-              <e p="TCF_MaterialInspector.cs" t="Include" />
-            </e>
-            <e p="Shaders 2.0" t="Include">
-              <e p="Regular.shader" t="Include" />
-              <e p="Rim Alpha.shader" t="Include" />
-              <e p="Rim Lighting.shader" t="Include" />
-              <e p="Rim Outline.shader" t="Include" />
+        <e p="Materials" t="Include">
+          <e p="Toons" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="ShadowReceiver.shader" t="Include" />
+              <e p="ToonComplete.shader" t="Include" />
             </e>
           </e>
+          <e p="Toony Shader Steroids lol" t="Include">
+            <e p="Regular.shader" t="Include" />
+            <e p="Rim Alpha.shader" t="Include" />
+            <e p="Rim Lighting.shader" t="Include" />
+            <e p="Rim Outline.shader" t="Include" />
+          </e>
+          <e p="TSF.shader" t="Include" />
+          <e p="TSFOutline.shader" t="Include" />
         </e>
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
@@ -676,23 +675,13 @@
             </e>
           </e>
         </e>
-        <e p="Props" t="Include">
-          <e p="Bed &amp; Bath Furniture Pack" t="Include">
-            <e p="Documentation.txt" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="DoorHand.cs" t="Include" />
           <e p="DoorTransport.cs" t="Include" />
+          <e p="DuckQuack.cs" t="Include" />
           <e p="PaperWod.cs" t="Include" />
           <e p="StackOfPaper.cs" t="Include" />
           <e p="WasteBasket.cs" t="Include" />
-        </e>
-        <e p="TSF" t="Include">
-          <e p="Shaders" t="Include">
-            <e p="TSF.shader" t="Include" />
-            <e p="TSFOutline.shader" t="Include" />
-          </e>
         </e>
       </e>
       <e p="DuckTrashSoup.sln" t="IncludeFlat" />
