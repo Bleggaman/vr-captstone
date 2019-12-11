@@ -12,6 +12,8 @@ public class PaperWod : OVRGrabbable {
 
     private const int COUNTER_RATE = 2;
     private const int QUEUE_SIZE = 4;
+
+    public float throwMultiplier;
     
     
     protected override void Start() {
@@ -61,7 +63,7 @@ public class PaperWod : OVRGrabbable {
         linearVelocity /= QUEUE_SIZE - 1;
         
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
-        rb.velocity = linearVelocity * (1 / Time.deltaTime) / COUNTER_RATE * 2;
+        rb.velocity = linearVelocity * (1 / Time.deltaTime) / COUNTER_RATE * throwMultiplier;
     }
     
     // Returns a list of the most recent QUEUE_SIZE positions. Positions at front of list are more recent

@@ -132,6 +132,7 @@ MonoBehaviour:
   - {fileID: 8695763593436362947}
   crumpleSound: {fileID: 8695763593446709731}
   collisionCrumple: {fileID: 8695763593446709742}
+  throwMultiplier: 1.2
 --- !u!82 &8695763593446709731
 AudioSource:
   m_ObjectHideFlags: 0
