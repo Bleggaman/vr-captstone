@@ -10,8 +10,8 @@ public class PaperWod : OVRGrabbable {
     public Queue<Vector3> positionsCache;
     private int counter;
 
-    private const int COUNTER_RATE = 3;
-    private const int QUEUE_SIZE = 3;
+    private const int COUNTER_RATE = 2;
+    private const int QUEUE_SIZE = 4;
     
     
     protected override void Start() {
@@ -50,12 +50,16 @@ public class PaperWod : OVRGrabbable {
     }
 
     public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity) {
-        var positions = EmptyPositionCache();
-        Debug.Log("Positions in queue are: " + positions[2] + " -> " + positions[1] + " -> " + positions[0]);
-        linearVelocity = positions[0] - positions[1];
-        //float angle = Vector3.Angle(positions[0] - positions[2], linearVelocity);
+        base.GrabEnd(linearVelocity, angularVelocity);
         
-        base.GrabEnd(COUNTER_RATE * linearVelocity, angularVelocity);
+        // Determine velocity at time of release
+        var positions = EmptyPositionCache();
+        linearVelocity = positions[0] - positions[1];
+        for (int i = 1; i < QUEUE_SIZE; i++) {
+            linearVelocity += positions[i - 1] - positions[i];
+        }
+        linearVelocity /= QUEUE_SIZE - 1;
+        
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
         rb.velocity = linearVelocity * (1 / Time.deltaTime) / COUNTER_RATE;
     }
