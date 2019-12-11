@@ -57,7 +57,7 @@ public class PaperWod : OVRGrabbable {
         
         base.GrabEnd(COUNTER_RATE * linearVelocity, angularVelocity);
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
-        rb.velocity = Vector3.up * 10;
+        rb.velocity = COUNTER_RATE * linearVelocity;
     }
     
     // Returns a list of the most recent QUEUE_SIZE positions. Positions at front of list are more recent
