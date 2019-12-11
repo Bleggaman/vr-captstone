@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8edaa69d-945c-4214-b8e4-37606c66bcc3" name="Default Changelist" comment="" />
+    <list default="true" id="8edaa69d-945c-4214-b8e4-37606c66bcc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PaperWod.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -590,8 +592,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="263">
+              <caret line="126" column="60" lean-forward="true" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="60" />
               <folding>
                 <marker date="1575409686047" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
                 <marker date="1575409686047" expanded="true" signature="979:1005" ph="..." />
@@ -633,21 +635,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="514">
+              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
               <folding>
-                <marker date="1576095259691" expanded="true" signature="6:92" ph="..." />
-                <marker date="1576095259691" expanded="true" signature="131:2191" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="404:587" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="520:581" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="621:858" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="742:852" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="932:1176" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="1229:1412" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="1311:1406" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="1496:1766" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="1925:2189" ph="{...}" />
-                <marker date="1576095259691" expanded="true" signature="2027:2147" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="6:92" ph="..." />
+                <marker date="1576095974037" expanded="true" signature="131:2401" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="404:587" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="520:581" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="621:858" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="742:852" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="932:1176" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="1229:1412" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="1311:1406" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="1496:1976" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="2135:2399" ph="{...}" />
+                <marker date="1576095974037" expanded="true" signature="2237:2357" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -820,12 +822,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575418444123</updated>
-      <workItem from="1575418445486" duration="10763000" />
+      <workItem from="1575418445486" duration="11065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10763000" />
+    <option name="totallyTimeSpent" value="11065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1537,8 +1539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state relative-caret-position="263">
+          <caret line="126" column="60" lean-forward="true" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="60" />
           <folding>
             <marker date="1575409686047" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
             <marker date="1575409686047" expanded="true" signature="979:1005" ph="..." />
@@ -1578,21 +1580,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PaperWod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="514">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
           <folding>
-            <marker date="1576095259691" expanded="true" signature="6:92" ph="..." />
-            <marker date="1576095259691" expanded="true" signature="131:2191" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="404:587" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="520:581" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="621:858" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="742:852" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="932:1176" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="1229:1412" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="1311:1406" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="1496:1766" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="1925:2189" ph="{...}" />
-            <marker date="1576095259691" expanded="true" signature="2027:2147" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="6:92" ph="..." />
+            <marker date="1576095974037" expanded="true" signature="131:2401" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="404:587" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="520:581" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="621:858" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="742:852" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="932:1176" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="1229:1412" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="1311:1406" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="1496:1976" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="2135:2399" ph="{...}" />
+            <marker date="1576095974037" expanded="true" signature="2237:2357" ph="{...}" />
           </folding>
         </state>
       </provider>
