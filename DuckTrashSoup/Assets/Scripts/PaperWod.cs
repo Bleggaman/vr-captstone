@@ -27,8 +27,8 @@ public class PaperWod : OVRGrabbable {
     private void Update() {
         // If grabbed, queue the position every 3rd frame
         if (this.isGrabbed && ++counter % COUNTER_RATE == 0) {
-            positionsCache.Enqueue(this.transform.position);
             positionsCache.Dequeue();
+            positionsCache.Enqueue(this.transform.position);
         }
     }
 
@@ -51,6 +51,7 @@ public class PaperWod : OVRGrabbable {
 
     public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity) {
         var positions = EmptyPositionCache();
+        Debug.Log("Positions in queue are: " + positions[2] + " -> " + positions[1] + " -> " + positions[0]);
         linearVelocity = positions[0] - positions[1];
         //float angle = Vector3.Angle(positions[0] - positions[2], linearVelocity);
         
