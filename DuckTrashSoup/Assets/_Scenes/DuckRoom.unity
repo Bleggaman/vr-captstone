@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9216,6 +9216,16 @@ PrefabInstance:
       propertyPath: targetRoom
       value: TrashRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 3990555968568456128, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990555968568456128, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.z
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
 --- !u!4 &1591021903 stripped
@@ -9341,6 +9351,16 @@ PrefabInstance:
       propertyPath: fade
       value: 
       objectReference: {fileID: 841950872}
+    - target: {fileID: 3990555968568456128, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990555968568456128, guid: 214b673e61a328f4b97a4c1f1bba63d3,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.z
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
 --- !u!4 &1609903416 stripped

@@ -14,7 +14,6 @@ public class DuckQuack : OVRGrabbable
 
     private void OnCollisionEnter(Collision other)
     {
-        quack.Play();
 
         if (other.gameObject.tag == "Player")
         {
