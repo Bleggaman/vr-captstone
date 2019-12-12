@@ -202,7 +202,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 23b90958b033c704d8c6dcde74b82770,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.29
+      value: -6.2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23b90958b033c704d8c6dcde74b82770,
         type: 3}
@@ -2297,7 +2297,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3fab89ad5cab4be4e9ea3e26ed0a8f36,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.6200004
+      value: 6.01
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3fab89ad5cab4be4e9ea3e26ed0a8f36,
         type: 3}
@@ -7748,7 +7748,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 23b90958b033c704d8c6dcde74b82770,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.36
+      value: 6.2000003
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23b90958b033c704d8c6dcde74b82770,
         type: 3}
@@ -14513,7 +14513,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: c236d4a4ce4c5e949a4cb7ef262cfac8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.3
+      value: 6.09
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c236d4a4ce4c5e949a4cb7ef262cfac8,
         type: 3}
@@ -26939,8 +26939,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857567570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.11, z: -0.16}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -0.03, y: -7.94, z: 0.1}
+  m_LocalScale: {x: 1.7107644, y: 1.7107644, z: 1.7107644}
   m_Children: []
   m_Father: {fileID: 1989900934}
   m_RootOrder: 0
@@ -27033,8 +27033,8 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.99783474, b: 0.8443396, a: 1}
   m_Intensity: 7
-  m_Range: 28.483776
-  m_SpotAngle: 15.229268
+  m_Range: 11.110339
+  m_SpotAngle: 37.374302
   m_InnerSpotAngle: 15.229268
   m_CookieSize: 10
   m_Shadows:
@@ -27549,7 +27549,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cba426ee75ed14542801b2fa32097768,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.98
+      value: 5.82
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cba426ee75ed14542801b2fa32097768,
         type: 3}
