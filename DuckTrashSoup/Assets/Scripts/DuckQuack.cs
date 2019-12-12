@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DuckQuack : MonoBehaviour
+public class DuckQuack : OVRGrabbable
 {
     public AudioSource quack;
+
+    public override void GrabBegin(OVRGrabber hand, Collider grabPoint)
+    {
+        base.GrabBegin(hand, grabPoint);
+        quack.Play();
+    }
 
     private void OnCollisionEnter(Collision other)
     {
