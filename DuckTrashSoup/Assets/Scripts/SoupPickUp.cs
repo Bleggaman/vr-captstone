@@ -2,14 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DuckQuack : OVRGrabbable
+public class SoupPickUp : OVRGrabbable
 {
-    public AudioSource quack;
+    public Animator turn;
+    public Animator turnLeft;
 
+    private void Start()
+    {
+        turn.SetBool("soupPickedUp", true);
+        turnLeft.SetBool("soupPickedUp", true);
+    }
     public override void GrabBegin(OVRGrabber hand, Collider grabPoint)
     {
         base.GrabBegin(hand, grabPoint);
-        quack.Play();
+        turn.SetBool("soupPickedUp", true);
+        turnLeft.SetBool("soupPickedUp", true);
     }
 
     private void OnCollisionEnter(Collision other)
@@ -19,6 +26,5 @@ public class DuckQuack : OVRGrabbable
         {
             Physics.IgnoreCollision(this.GetComponent<Collider>(), other.collider);
         }
-    } 
-    
+    }
 }
