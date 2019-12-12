@@ -3,7 +3,11 @@ guid: 13ca315ba60cb1346b2cb11bb80172ea
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_snapOffset: {instanceID: 0}
+  - turn: {fileID: -6057140222963153312, guid: 3fab89ad5cab4be4e9ea3e26ed0a8f36, type: 3}
+  - turnLeft: {fileID: -6057140222963153312, guid: c236d4a4ce4c5e949a4cb7ef262cfac8,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

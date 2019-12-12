@@ -17481,8 +17481,9 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints:
   - {fileID: 688307340}
-  turn: {fileID: 0}
-  turnLeft: {fileID: 0}
+  turn: {fileID: -6057140222963153312, guid: 3fab89ad5cab4be4e9ea3e26ed0a8f36, type: 3}
+  turnLeft: {fileID: -6057140222963153312, guid: c236d4a4ce4c5e949a4cb7ef262cfac8,
+    type: 3}
 --- !u!54 &688307339
 Rigidbody:
   m_ObjectHideFlags: 0

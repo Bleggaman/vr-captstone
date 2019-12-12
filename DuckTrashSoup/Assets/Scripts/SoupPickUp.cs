@@ -11,12 +11,14 @@ public class SoupPickUp : OVRGrabbable
     {
         turn.SetBool("soupPickedUp", true);
         turnLeft.SetBool("soupPickedUp", true);
+        Debug.Log("soupPickedUp is true in beginning");
     }
     public override void GrabBegin(OVRGrabber hand, Collider grabPoint)
     {
         base.GrabBegin(hand, grabPoint);
         turn.SetBool("soupPickedUp", true);
         turnLeft.SetBool("soupPickedUp", true);
+        Debug.Log("soupPickedUp is true in GrabBegin");
     }
 
     private void OnCollisionEnter(Collision other)
