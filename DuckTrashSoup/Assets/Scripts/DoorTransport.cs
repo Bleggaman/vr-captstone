@@ -10,10 +10,18 @@ public class DoorTransport : OVRGrabbable {
     public MeshRenderer door;
     public Material lit;
     public Material unlit;
+	
+	public OVRScreenFade fade;
 
     public override void GrabBegin(OVRGrabber hand, Collider grabPoint) {
-        SceneManager.LoadScene(targetRoom);
+        StartCoroutine(Transition());
     }
+
+	private IEnumerator Transition() {
+		fade.FadeOut();
+		yield return new WaitForSeconds(2);
+		SceneManager.LoadScene(targetRoom);
+	}
 
     public void LightDoor() {
         this.door.material = lit;

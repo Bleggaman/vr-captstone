@@ -11,9 +11,15 @@ public class PaperWod : OVRGrabbable {
     private int counter;
 
     private const int COUNTER_RATE = 2;
-    private const int QUEUE_SIZE = 4;
+    private const int QUEUE_SIZE = 3;
+	private const float VELOCITY_MAX = 22;
+	private const float VELOCITY_MIN = 12;
+	private const float VELOCITY_THROW_THRESHOLD = 8;
 
     public float throwMultiplier;
+	
+	// This indicates for how many frames after the release of the wad that it will follow the hand still
+	public int directionBufferLength;
     
     
     protected override void Start() {
@@ -52,7 +58,14 @@ public class PaperWod : OVRGrabbable {
     }
 
     public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity) {
-        base.GrabEnd(linearVelocity, angularVelocity);
+        StartCoroutine(DelayRelease(linearVelocity, angularVelocity));
+    }
+	
+	private IEnumerator DelayRelease(Vector3 linearVelocity, Vector3 angularVelocity) {
+		for (int i = 0; i < this.directionBufferLength; i++)
+			yield return new WaitForEndOfFrame();
+		
+		base.GrabEnd(linearVelocity, angularVelocity);
         
         // Determine velocity at time of release
         var positions = EmptyPositionCache();
@@ -63,8 +76,20 @@ public class PaperWod : OVRGrabbable {
         linearVelocity /= QUEUE_SIZE - 1;
         
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
-        rb.velocity = linearVelocity * (1 / Time.deltaTime) / COUNTER_RATE * throwMultiplier;
-    }
+        linearVelocity = linearVelocity * (1 / Time.deltaTime) / COUNTER_RATE * throwMultiplier;
+		float preMagnitude = linearVelocity.magnitude;
+		Debug.Log("Pre velocity magnitude on release: " + preMagnitude);
+		
+		if (preMagnitude > VELOCITY_MAX) {
+			linearVelocity *= VELOCITY_MAX / preMagnitude;
+		} else if (preMagnitude < VELOCITY_MIN && preMagnitude > VELOCITY_THROW_THRESHOLD) {
+			linearVelocity *= VELOCITY_MIN / preMagnitude;
+		}
+		
+		
+		Debug.Log("      Velocity magnitude on release: " + linearVelocity.magnitude);
+		rb.velocity = linearVelocity;
+	}
     
     // Returns a list of the most recent QUEUE_SIZE positions. Positions at front of list are more recent
     private List<Vector3> EmptyPositionCache() {
