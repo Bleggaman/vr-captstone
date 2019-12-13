@@ -287,7 +287,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5e9c6736912bc8447bbb3519c4016bd5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5e9c6736912bc8447bbb3519c4016bd5,
         type: 3}
@@ -8187,6 +8187,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints:
   - {fileID: 99343150}
+  anim: {fileID: 99343152}
   quack: {fileID: 99343147}
 --- !u!23 &99343149
 MeshRenderer:
@@ -8255,6 +8256,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &99343152 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 5e9c6736912bc8447bbb3519c4016bd5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99343143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &152285757
 GameObject:
   m_ObjectHideFlags: 0
