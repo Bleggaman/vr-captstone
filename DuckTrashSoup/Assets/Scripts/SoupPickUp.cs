@@ -7,6 +7,7 @@ public class SoupPickUp : OVRGrabbable
     public Animator turn;
     public Animator turnLeft;
 	
+	public AudioSource spoopyMusic;
 	public ParticleSystem ps;
 	public Light roomLight;
 	
@@ -24,6 +25,7 @@ public class SoupPickUp : OVRGrabbable
         base.GrabBegin(hand, grabPoint);
 		// Stop the soup particles, turn the lights red, play them bad tunes, rotate heads
 		ps.Stop();
+		spoopyMusic.Play();
 		roomLight.color = alert;
         turn.SetBool("soupPickedUp", true);
         turnLeft.SetBool("soupPickedUp", true);
@@ -36,6 +38,7 @@ public class SoupPickUp : OVRGrabbable
 		
 		// Play the soup particles, turn the lights white, stop them bad tunes, rotate heads
 		ps.Play();
+		spoopyMusic.Pause();
 		roomLight.color = lit;
 	}
 
